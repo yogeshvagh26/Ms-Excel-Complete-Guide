@@ -2,10 +2,18 @@
 
 Welcome to your journey into **Microsoft Excel**! This lesson is designed for absolute beginners. We'll start from the very basics and build a strong foundation. Take your time, follow along, and complete the practice exercises to reinforce your learning.
 
+* **Introduction to MS Excel**
+* **Excel Interface and Ribbon**
+* **Workbooks and Worksheets**
+* **Rows, Columns, and Cells**
+* **Data Entry and Editing**
+* **Saving and Managing Files**
+* **Keyboard Shortcuts**
+* **Basic Formatting**
 
 ## Introduction to MS Excel
 
-#### Concept Explanation
+### Concept Explanation
 
 **What is Microsoft Excel?**
 
