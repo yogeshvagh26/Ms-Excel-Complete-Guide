@@ -1840,19 +1840,275 @@ Test your understanding of what we've covered so far:
 
 ---
 
+### Assignment and Project Work
+
+#### Assignment 1: Monthly Budget Tracker
+
+Create a comprehensive monthly budget tracker with the following requirements:
+
+**Data Requirements:**
+
+* Create 3 worksheets: "January", "February", "March"
+
+* Each worksheet must include:
+
+    * Column headers: "Category", "Budgeted", "Actual", "Difference"
+
+    * At least 8 categories (e.g., Rent, Food, Transportation, Entertainment)
+
+    * Totals row at the bottom
+
+    * Formula for difference (Actual - Budgeted)
+
+**Formatting Requirements:**
+
+* Bold and center column headers
+
+* Apply Currency format to all monetary values
+
+* Use color to highlight the "Difference" column (green for positive, red for negative)
+
+* Add borders around the entire table
+
+* Adjust column widths appropriately
+
+**Additional Requirements:**
+
+* Create a "Summary" sheet that references data from all three months
+
+* In the Summary sheet, show the total spending for each month
+
+* Save the workbook as "Budget_Tracker_[YourName].xlsx"
+
+**Deliverables:**
+
+* Completed budget tracker with all 4 worksheets
+
+* All formulas working correctly
+
+* Professional formatting throughout
+
+---
+
+#### Assignment 2: Employee Database
+
+Create a comprehensive employee management system:
+
+**Data Entry:**
+
+* Create a worksheet called "Employees"
+
+* Enter at least 15 employee records with:
+
+    * Employee ID (use format: EMP001, EMP002...)
+
+    * First Name
+
+    * Last Name
+
+    * Department (Sales, Marketing, IT, HR, Finance)
+
+    * Job Title
+
+    * Hire Date
+
+    * Annual Salary
+
+    * Email Address
+
+**Formatting Requirements:**
+
+* Use consistent formatting throughout
+
+* Apply currency format to salary
+
+* Apply date format to hire dates
+
+* Use alternating row colors for readability
+
+* Freeze the header row
+
+* Adjust all columns to fit content
 
 
+**Additional Features:**
+
+* Add a "Summary" section below the data that shows:
+
+    * Total number of employees
+
+    * Average salary
+
+    * Minimum salary
+
+    * Maximum salary
+
+    * Number of employees by department
+
+* Create a "Salary Analysis" sheet with formulas comparing salaries
 
 
+**Deliverables:**
+
+* Employee database workbook
+
+* All formulas working correctly
+
+* Professional formatting
+
+* Summary statistics
+
+---
+
+#### Assignment 3: Sales Data Analysis
+
+Create a sales analysis report from the following business scenario:
+
+**Scenario:**
+
+> You are a sales manager who needs to track monthly sales for 5 products across 3 regions.
+
+**Data Requirements:**
+
+* Create 3 worksheets: "Sales_Data", "Product_Analysis", "Regional_Summary"
+
+* Sales_Data should contain:
+
+    * Products (Product A, Product B, Product C, Product D, Product E)
+
+    * Regions (North, South, East, West)
+
+    * Monthly sales for January, February, March, April, May, June
+
+    * At least 3 months of data for each product/region
+
+**Analysis Requirements:**
+
+* On the Product_Analysis sheet:
+
+    * Show total sales by product
+
+    * Show average monthly sales
+
+    * Identify the best and worst performing products
+
+    * Use color to highlight products above and below average
+
+* On the Regional_Summary sheet:
+
+    * Show total sales by region
+
+    * Calculate percentage of total sales for each region
+
+    * Identify the top and bottom regions
+
+**Formatting Requirements:**
+
+* Professional formatting throughout
+
+* Appropriate number formatting for financial data
+
+* Clear titles and labels
+
+* Borders and shading where appropriate
+
+**Deliverables:**
 
 
+* Sales analysis workbook
+
+* All formulas working correctly
+
+* Professional appearance
+
+* Data should tell a clear 
+
+---
+
+## Summary and Revision Notes
+
+### Phase 1: Key Concepts - Quick Revision
+
+#### Excel Fundamentals
+
+* Excel: Spreadsheet application for organizing, analyzing, and visualizing data
+
+* Workbook: The entire Excel file
+
+* Worksheet: Individual page within a workbook
+
+* Cell: Intersection of row and column (e.g., A1)
+
+* Data Types: Text, Numbers, Dates/Times
+
+#### Navigation and Interface
+
+* Ribbon: Tabs with tools (Home, Insert, Page Layout, etc.)
+
+* Quick Access Toolbar: Customizable toolbar for frequent actions
+
+* Formula Bar: Shows content of selected cell
+
+* Status Bar: Information at bottom of screen
+
+#### Rows, Columns, Cells
+
+* Rows: Horizontal (numbered 1 to 1,048,576)
+
+* Columns: Vertical (labeled A to XFD)
+
+* Cell References: A1, $A$1, A1, A1
+
+#### Essential Shortcuts
+
+| Action | Shortcut |
+|--------|----------|
+| Save   | Ctrl+S   |
+| Undo   | Ctrl+Z   |
+| Redo   | Ctrl+Y   |
+| Copy   | Ctrl+C   |
+| Paste  | Ctrl+V   |
+| Bold   | Ctrl+B   |
+
+#### Formatting
 
 
+* Font: Style, size, color, bold, italic
+
+* Number: Currency, percentage, date, decimal
+
+* Alignment: Left, center, right, top, middle, bottom
+
+* Borders and Fill: Lines and colors for cells
 
 
+#### File Management
 
+* Save: Ctrl+S (updates current file)
 
+* Save As: F12 (creates new file)
 
+* File Types: .xlsx, .xls, .csv, .pdf
+
+* AutoRecover: Automatic save every few minutes
+
+#### Best Practices Checklist
+
+* Save every 5-10 minutes
+
+* Use descriptive file names
+
+* Plan spreadsheet structure
+
+* Use clear headers and labels
+
+* Keep data organized and clean
+
+* Use consistent formatting
+
+* Test formulas with sample data
+
+* Document assumptions and changes
 
 
 
