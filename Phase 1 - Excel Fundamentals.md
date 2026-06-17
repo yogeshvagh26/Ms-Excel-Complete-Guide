@@ -1735,3 +1735,142 @@ Test your understanding of what we've covered so far:
 
     * Use password protection for sensitive files
 
+---    
+
+### Interview Questions
+
+
+#### Beginner Level Questions
+
+1. **What is the difference between relative and absolute cell references?**
+
+    Relative references change when a formula is copied (e.g., A1 becomes A2). Absolute references stay fixed using dollar signs (e.g., $A$1 stays $A$1). Use absolute references when you want the same cell used in all calculations.
+
+    ---
+    
+2. **What are the three main types of data you can enter in Excel?**
+
+    Text (labels), Numbers (values), and Dates/Times. Text is left-aligned, numbers are right-aligned, and dates are stored as numbers.
+
+    ---
+
+3. **How do you create a new worksheet?**
+
+    Click the "+" icon at the bottom of the workbook, or right-click on an existing sheet tab and select "Insert."
+
+    ---
+
+4. **What is the purpose of the Format Painter?**
+
+    The Format Painter (in the Home tab) copies formatting from one cell to another. It saves time when you need consistent formatting across multiple cells.
+
+    ---
+
+5. **How do you resize a column to fit its content?**
+
+    Double-click the boundary between column letters, or select the column and press Format → AutoFit Column Width.
+
+    ---
+
+6. **What is the keyboard shortcut for saving a workbook?**
+
+    Ctrl+S saves the current workbook. F12 opens the Save As dialog.
+
+    ---
+
+7. **How can you enter data in multiple cells at once?**
+
+    Select all the cells, type the data, and press Ctrl+Enter. The data will appear in all selected cells.
+
+    ---
+
+8. **What does the default font and alignment look like in Excel?**
+
+    Excel uses Calibri 11 as default font. Text is left-aligned, numbers are right-aligned.
+
+    ---
+
+9. **How do you move between worksheets?**
+
+    Click the sheet tabs at the bottom, or use Ctrl+Page Down/Up.
+
+    ---
+
+10. **What file format should you use to save Excel files?**
+
+    .xlsx is the modern format. Use .xls for older Excel versions, .csv for plain text data, .pdf for sharing.
+
+    ---
+
+11. **How do you add borders to cells?**
+
+    Select the cells, click the Borders dropdown in the Home tab, and choose a border style. You can also use the Format Cells dialog (Ctrl+1).
+
+    ---
+
+12. **What is the difference between deleting rows/columns and clearing content?**
+
+    Deleting removes the entire row/column (structure), while clearing content only removes the data, leaving the cells empty.
+
+    ---    
+
+#### Intermediate Level Questions
+    
+13. **What is the difference between .xlsx and .csv formats?**
+
+    .xlsx is a full Excel workbook format that supports formulas, formatting, multiple sheets, and VBA. .csv is a plain text format that only saves cell data separated by commas, losing all formatting and formulas.
+
+    ---
+
+14. **How do you protect cells in Excel?**
+
+    Lock cells (Format Cells → Protection → Locked), then protect the worksheet (Review → Protect Sheet). Only unlocked cells can be edited.
+
+    ---
+
+15. **How do you copy a worksheet to another workbook?**
+
+    Right-click the sheet tab → Move or Copy → Choose the destination workbook → Check "Create a copy."
+
+    ---
+
+16. **What is the Quick Access Toolbar and how can it help?**
+
+    It's a customizable toolbar at the top-left of Excel. You can add frequently used commands for quick access, saving time and mouse movements.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
