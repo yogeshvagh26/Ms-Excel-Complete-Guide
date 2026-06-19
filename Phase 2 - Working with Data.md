@@ -1,6 +1,6 @@
 # Phase 2: Working with Data 
 
-Welcome to Phase 2! Now that you have a solid foundation in Excel's interface and basic operations, we'll dive into one of the most crucial skills: manipulating and managing data. Real-world data is rarely perfect or organized exactly how you need it. This phase teaches you the tools to clean, organize, extract, and control your data effectively.
+Welcome to Phase 2! Now that you have a solid foundation in Excel's interface and basic operations, we'll dive into one of the most crucial skills: **manipulating and managing data**. Real-world data is rarely perfect or organized exactly how you need it. This phase teaches you the tools to clean, organize, extract, and control your data effectively.
 
 Take your time, follow the demonstrations, and complete the exercises. Each concept builds on the previous one.
 
@@ -20,7 +20,7 @@ The four primary data types are:
 
     * **Examples**: "John Doe", "Product A123", "New York"
 
-    * **Default Alignment**: Left-aligned
+    * **Default Alignment**: **Left-aligned**
 
     * **Behavior**: You cannot perform math on text values.
 
@@ -31,7 +31,7 @@ The four primary data types are:
 
     * **Examples**: 1500, 0.25, -50, 3.14159
 
-    * **Default Alignment**: Right-aligned
+    * **Default Alignment**: **Right-aligned**
 
     * **Behavior**: You can add, subtract, average, etc. (Note: A number with a leading zero, like "0123", is usually treated as text unless formatted specially, because the zero would disappear).
 
@@ -41,7 +41,7 @@ The four primary data types are:
 
     * **Examples**: 15-Jan-2024, 3:30 PM
 
-    * **Default Alignment**: Right-aligned
+    * **Default Alignment**: **Right-aligned**
 
     * **Behavior**: You can calculate the difference between dates, add days, etc.
 
@@ -61,7 +61,7 @@ The four primary data types are:
 
 * Look at the Number Format dropdown in the Home tab.
 
-* Look for the green triangle in the top-left corner of a cell—this indicates a potential data type mismatch (e.g., a number stored as text).
+* Look for the **green triangle** in the top-left corner of a cell—this indicates a potential data type mismatch (e.g., a number stored as text).
 ---
 
 ### Importance and Real-World Use Cases
@@ -69,7 +69,7 @@ The four primary data types are:
 #### Why Data Types Matter:
 
 
-* **Accurate Calculations**: If a "number" is stored as text, SUM will ignore it, leading to incorrect totals.
+* **Accurate Calculations**: If a "number" is stored as text, `SUM` will ignore it, leading to incorrect totals.
 
 * **Correct Sorting**: If dates are stored as text, they will sort alphabetically (e.g., April, August, February) rather than chronologically (Jan, Feb, Mar).
 
@@ -171,11 +171,11 @@ Enter the following data and identify (by alignment) what type each is:
 #### Exercise 2: Converting Text to Numbers
 
 
-1. In cell A1, type '1000.
+1. In cell A1, type `'1000`.
 
-2. In cell A2, type 2000.
+2. In cell A2, type `2000`.
 
-3. In cell A3, write =SUM(A1:A2). Note the result (it only sums 2000).
+3. In cell A3, write `=SUM(A1:A2)`. Note the result (it only sums 2000).
 
 4. Convert A1 to a number. Note the sum now becomes 3000.
 
@@ -188,7 +188,7 @@ Enter the following data and identify (by alignment) what type each is:
 
 #### The Power of Copy, Paste, and Fill
 
-Copying and pasting in Excel is far more powerful than in Word. You don't just paste text; you paste formulas, values, formats, and even transpose data (switching rows to columns).
+Copying and pasting in Excel is far more powerful than in Word. You don't just paste text; you **paste formulas**, **values**, **formats**, and even **transpose** data (switching rows to columns).
 
 #### Key Concepts:
 
@@ -225,13 +225,13 @@ Copying and pasting in Excel is far more powerful than in Word. You don't just p
 ### Importance and Real-World Use Cases
 
 
-* **Reporting**: You calculate totals with formulas, but need to send only the final numbers to a client. You use Paste Values to remove the formulas.
+* **Reporting**: You calculate totals with formulas, but need to send only the final numbers to a client. You use **Paste Values** to remove the formulas.
 
-* **Data Restructuring**: You have data in rows but need it in columns for a chart. You use Transpose.
+* **Data Restructuring**: You have data in rows but need it in columns for a chart. You **use Transpose**.
 
-* **Budget Updates**: You need to increase all prices by 10%. You type 1.1, copy it, select the price range, and use Paste Special → Multiply.
+* **Budget Updates**: You need to increase all prices by 10%. You type 1.1, copy it, select the price range, and use **Paste Special → Multiply**.
 
-* **Templates**: You copy formatting from a perfect report to a new one using Paste Formats.
+* **Templates**: You copy formatting from a perfect report to a new one using **Paste Formats**.
 
 ---
 
@@ -348,11 +348,11 @@ Sorting is arranging your data in a specific order—alphabetically (A to Z, Z t
 
 1. Select any cell within your data range (e.g., a column of names).
 
-2. Go to the Data tab.
+2. Go to the **Data tab**.
 
-3. Click AZ (Sort Ascending) or ZA (Sort Descending).
+3. Click **AZ** (Sort Ascending) or **ZA** (Sort Descending).
 
-4. Excel Warning: If your data has a header row, Excel will usually detect it and ask if you want to expand the selection. Always expand to keep rows intact.
+4. _Excel Warning_: If your data has a header row, Excel will usually detect it and ask if you want to expand the selection. **Always expand** to keep rows intact.
 
 #### 2. Custom Sort (Multiple Levels)
 
@@ -461,7 +461,7 @@ Filtering is temporarily hiding rows that do not meet specific criteria, allowin
 
 1. Click anywhere inside your data table.
 
-2. Go to Data → Filter (or press Ctrl+Shift+L).
+2. Go to **Data** → **Filter** (or press Ctrl+Shift+L).
 
 3. Click the dropdown arrow in the "City" column.
 
@@ -477,7 +477,7 @@ Filtering is temporarily hiding rows that do not meet specific criteria, allowin
 1. Click the dropdown arrow in the "Sales" column.
 
 
-2. Select Number Filters → Greater Than.
+2. Select **Number Filters** → **Greater Than**.
 
 3. Enter `600`.
 
@@ -485,7 +485,7 @@ Filtering is temporarily hiding rows that do not meet specific criteria, allowin
 
 #### 3. Clearing Filters
 
-1. Click the Clear button on the Data tab (next to Filter) to show all data.
+1. Click the **Clear** button on the Data tab (next to Filter) to show all data.
 
 
 2. Or click the dropdown arrow and select "Clear Filter From [Column]".
@@ -495,7 +495,7 @@ Filtering is temporarily hiding rows that do not meet specific criteria, allowin
 
 1. Right-click a cell containing "LA".
 
-2. Choose Filter → Filter by Selected Cell's Value. This instantly filters the entire list to "LA".
+2. Choose **Filter → Filter by Selected Cell's Value**. This instantly filters the entire list to "LA".
 
 ---
 
@@ -575,7 +575,7 @@ This is the search engine within your Excel workbook. You can find specific data
 
 #### 1. Basic Find
 
-1. Press Ctrl+F.
+1. Press **Ctrl+F**.
 
 2. Type "Bob" in the Find what box.
 
@@ -585,25 +585,25 @@ This is the search engine within your Excel workbook. You can find specific data
 
 1. Press Ctrl+H (Find & Replace shortcut).
 
-2. Type "Sales" in Find what.
+2. Type "Sales" in **Find what**.
 
-3. Type "Marketing" in Replace with.
+3. Type "Marketing" in **Replace with**.
 
 4. Click "Replace All" to change everything, or "Replace" to do one at a time.
 
 #### 3. Advanced Options (Important!)
 
-1. In Find/Replace, click Options >>.
+1. In Find/Replace, click **Options >>**.
 
-2. Within: Choose Sheet or Workbook (search all tabs).
+2. **Within**: Choose Sheet or Workbook (search all tabs).
 
-3. Search: By Rows or Columns.
+3. **Search**: By Rows or Columns.
 
-4. Look in: Formulas, Values, or Comments.
+4. **Look in**: Formulas, Values, or Comments.
 
-5. Match case: "apple" ≠ "Apple".
+5. **Match case**: "apple" ≠ "Apple".
 
-6. Match entire cell contents: Prevents changing "123" inside "4123".
+6. **Match entire cell contents**: Prevents changing "123" inside "4123".
 
 
 #### 4. Finding Formatting
@@ -680,7 +680,7 @@ This tool takes a single column of data and splits it into multiple columns base
 
 #### 1. Delimited (Comma Separated)
 
-1. In column A, type several entries like: John,Doe,35, Jane,Smith,28.
+1. In column A, type several entries like: `John,Doe,35`, `Jane,Smith,28`.
 
 2. Select column A.
 
@@ -699,7 +699,7 @@ This tool takes a single column of data and splits it into multiple columns base
 #### 2. Fixed Width (Untidy data)
 
 
-1. Type a list of codes like A12345B, C98765D.
+1. Type a list of codes like `A12345B`, `C98765D`.
 
 2. Select the column → Text to Columns → Fixed Width.
 
@@ -715,7 +715,7 @@ This tool takes a single column of data and splits it into multiple columns base
 #### Rules:
 
 
-* This operation overwrites the original data if you don't set a new destination.
+* This operation **overwrites** the original data if you don't set a new destination.
 
 * It works on one column at a time.
 
@@ -754,7 +754,7 @@ Flash Fill is Excel's "magic" tool. It detects a pattern in your data entry and 
 
 1. In the column next to your data, type an example of what you want the output to look like.
 
-2. Press Ctrl+E (or go to Data → Flash Fill).
+2. Press **Ctrl+E** (or go to Data → Flash Fill).
 
 3. Excel recognizes the pattern and fills the entire column.
 
@@ -766,7 +766,7 @@ Flash Fill is Excel's "magic" tool. It detects a pattern in your data entry and 
 
 * Combining first and last names.
 
-* Formatting phone numbers (123) 456-7890.
+* Formatting phone numbers `(123) 456-7890`.
 
 * Changing case (lowercase, uppercase, proper case).
 
@@ -911,11 +911,11 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 1. Select the cells where you want the dropdown (e.g., B2:B10).
 
-2. Go to Data → Data Validation.
+2. Go to **Data** → **Data Validation**.
 
-3. Under Allow: select List.
+3. **Under Allow**: select **List**.
 
-4. In the Source: box, type your options separated by commas: Yes, No or refer to a range like =$A$1:$A$3.
+4. In the Source: box, type your options separated by commas: `Yes, No` or refer to a range like `=$A$1:$A$3`.
 
 5. Click OK. Now users can only choose from the dropdown.
 
@@ -923,13 +923,13 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 1. Select a range for "Age".
 
-2. Data Validation → Allow: Whole Number.
+2. Data Validation → Allow: **Whole Number**.
 
-3. Data: between.
+3. Data: **between**.
 
 4. Minimum: `18`, Maximum: `65`.
 
-5. Go to Error Alert tab.
+5. Go to **Error Alert tab**.
 
 6. Title: "Invalid Age". Error message: "Age must be between 18 and 65."
 
@@ -988,7 +988,7 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 1. Allow only dates in January 2024 to be entered.
 
-2. _Hint_: Allow Date → between 1/1/2024 and 1/31/2024.
+2. _Hint_: Allow Date → between `1/1/2024` and `1/31/2024`.
 
 ---
 
@@ -1046,9 +1046,9 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 4. **Overwriting Data with Text to Columns**: Mistake: Running Text to Columns on a column and not changing the destination, losing the original data. Solution: Always select a destination column if you want to keep the original.
 
-5. **Over-relying on Flash Fill for Dynamic Data**: Mistake: Using Flash Fill to combine data, then changing the source data and wondering why the output doesn't update. Solution: Use formulas (& or CONCATENATE) if the data changes frequently.
+5. **Over-relying on Flash Fill for Dynamic Data**: Mistake: Using Flash Fill to combine data, then changing the source data and wondering why the output doesn't update. Solution: Use formulas (`&` or `CONCATENATE`) if the data changes frequently.
 
-6. **Forgetting to Clear Filters**: Mistake: Filtering data, printing it, and then wondering why half the data is missing. Solution: Always clear filters (Ctrl+Shift+L twice) or look for the filter icon in the header.
+6. **Forgetting to Clear Filters**: Mistake: Filtering data, printing it, and then wondering why half the data is missing. Solution: Always clear filters (`Ctrl+Shift+L` twice) or look for the filter icon in the header.
 
 7. **Copying with Filters On**: Mistake: Copying data while filters are active and pasting it elsewhere, inadvertently pasting only visible rows. Solution: Be mindful of visible vs. hidden rows. (Note: Paste Special can paste only visible cells).
 
@@ -1064,7 +1064,7 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 3. **Use Paste Values for Final Reports**: When distributing a report, paste values over all formulas to prevent recipients from accidentally changing them, and to speed up the file.
 
-4. **Combine Flash Fill with Formulas**: Use Flash Fill for quick, one-off extractions. Use LEFT, RIGHT, MID, FIND formulas for consistent, dynamic extractions.
+4. **Combine Flash Fill with Formulas**: Use Flash Fill for quick, one-off extractions. Use `LEFT`, `RIGHT`, `MID`, `FIND` formulas for consistent, dynamic extractions.
 
 5. **Validate Input Early**: Set Data Validation on templates before sending them to other people. It drastically reduces data cleaning time later.
 
@@ -1123,3 +1123,183 @@ Data Validation is a rule you set on a cell or range to control what kind of dat
 
 ---
 
+## Assignment and Project Work: Data Cleaning & Organization Project
+
+#### Scenario: 
+
+> Messy Sales Data Cleanup
+
+You have been provided with a messy export from an ancient sales system. Your job is to clean it up and organize it so the sales director can analyze it.
+
+**Download/Setup**: Copy this "messy" data into a new Excel workbook starting at A1.
+
+
+| Full Name     | Phone         | Email            | Region/State | Sales_Amount |
+|---------------|---------------|------------------|--------------|--------------|
+| John_Doe      | 1234567890    | john@abc.com     | NY           | 1500.5       |
+| Jane_Smith    | 987-654-3210  | jane@xyz.org     | CA           | 2500.75      |
+| Bob Johnson   | 5551234567    | bob@abc.com      | ny           | 1000.00      |
+| Mary_Davis    | 212-555-1212  | mary@test.net    | CA           | 3000         |
+| (Empty)       | 555-9876      |                  | NY           | 500          |
+
+### Tasks to Perform:
+
+#### 1. Data Types & Cleaning:
+
+* Fix the `Sales_Amount` column. Ensure all numbers are proper numbers and right-aligned. (Hint: check for text formatting).
+
+* Standardize the `Region/State` column. Ensure all are uppercase ("NY", "CA").
+
+#### 2. Text to Columns:
+
+* Split the `Full Name` column into two columns: `First Name` and `Last Name`.
+
+* Hint: The delimiter is either an underscore (`_`) or a space ( ). You might need to handle both.
+
+#### 3. Flash Fill:
+
+* In a new column called `Domain`, extract the domain from the `Email` column (e.g., `abc.com`).
+
+#### 4. Find & Replace:
+
+* There is a blank cell in `Full Name`. Replace it with "Unknown".
+
+#### 5. Data Validation:
+
+* Apply Data Validation to the `Region/State` column to only allow "NY" or "CA" from a dropdown list.
+
+#### 6. Sorting:
+
+* Sort the entire list by `State` (A-Z) and then by `Sales_Amount` (Largest to Smallest).
+
+#### 7. Filtering:
+
+* Apply a filter to show only records from "NY".
+
+* Copy the visible filtered rows to a new sheet named "NY_Sales".
+
+#### Deliverables:
+
+* A clean workbook with the original data (cleaned) on Sheet1.
+
+* A new sheet named "NY_Sales" containing only NY records.
+
+* All formulas (if any) and validations working correctly.
+
+---
+
+## Summary and Revision Notes
+
+### Phase 2: Key Concepts - Quick Revision
+
+#### 1. Data Types
+
+* **Text (Left) vs Numbers/Dates (Right).**
+
+* Green triangle = Number stored as Text → Convert!
+
+* Use Format Cells to change display, not the underlying type.
+
+#### 2. Copy, Paste, Fill
+
+* **Ctrl+C / Ctrl+V.**
+
+* **Paste Values (123)** = Remove formulas, keep numbers.
+
+* **Paste Transpose** = Flip rows to columns.
+
+* **Fill Handle**: Drag to copy; hold Ctrl while dragging to increment numbers.
+
+#### 3. Sorting & Filtering
+
+* **Sort**: Rearranges data. Always select the whole table.
+
+* **Filter**: Hides data. Use Ctrl+Shift+L to toggle.
+
+* **Number Filters**: Greater than, Top 10, etc.
+
+#### 4. Find, Replace, Text to Columns
+
+* **Ctrl+H** for Replace.
+
+* **Text to Columns**: Split data by Comma, Tab, or Fixed Width.
+
+* **Destination** is crucial—don't overwrite your source!
+
+#### 5. Flash Fill
+
+* **Ctrl+E** to invoke.
+
+* Extracts/combines data based on patterns.
+
+* **Static** (does not update automatically).
+
+#### 6. Data Validation
+
+* Restricts input to prevent errors.
+
+* **List = Dropdown** menus.
+
+* Can set Input Messages and Error Alerts.
+
+### Best Practices Checklist
+
+* Always ensure numbers are truly numbers (right-aligned).
+
+* Use Paste Values when distributing final reports.
+
+* Never sort a single column by itself.
+
+* Clear filters before saving/closing to avoid confusion.
+
+* Use Data Validation dropdowns to standardize entries.
+
+* Prefer formulas over Flash Fill for dynamic/live data.
+
+### Your Learning Journey Continues
+
+You've mastered the essential data manipulation tools! You can now take raw, messy data and transform it into organized, structured, and validated information.
+
+#### What You've Learned:
+
+* Managing Data Types for accuracy.
+
+* Efficient Copy, Paste, and Fill techniques.
+
+* Sorting and Filtering for analysis.
+
+* Cleaning data with Find/Replace and Text to Columns.
+
+* Automating patterns with Flash Fill.
+
+* Controlling input with Data Validation.
+
+#### Ready for Phase 3: Functions
+
+* String Functions
+* Numeric Functions
+* Date Functions
+* Aggregate Functions
+    * COUNT
+    * SUM
+    * AVG
+    * MIN
+    * MAX
+
+#### Before Moving On:
+
+1. Complete all practice exercises.
+
+2. Complete the Data Cleaning Project.
+
+3. Test yourself with the mini quiz.
+
+4. Review any areas that feel unclear.
+
+5. Practice with your own messy data!
+
+----
+
+
+<br/><br/><br/>
+<center> <b>Happy Learning! 😊</b> </center>
