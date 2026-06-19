@@ -393,25 +393,25 @@ Create a simple table with 3 columns and 5 rows of data. Use at least 3 differen
 
 Organizing data across multiple worksheets:
 
-* Monthly Reports: Each month gets its own sheet (Jan, Feb, Mar...)
+* **Monthly Reports**: Each month gets its own sheet (Jan, Feb, Mar...)
 
-* Department Data: Sales, Marketing, HR each have their own sheet
+* **Department Data**: Sales, Marketing, HR each have their own sheet
 
-* Consolidation: A summary sheet pulls data from other sheets
+* **Consolidation**: A summary sheet pulls data from other sheets
 
-* Project Tracking: Different phases on different sheets
+* **Project Tracking**: Different phases on different sheets
 
 **Business Example:**
 
 A retail company might have:
 
-* Sheet1: Sales Data
+* **Sheet1**: Sales Data
 
-* Sheet2: Inventory Data
+* **Sheet2**: Inventory Data
 
-* Sheet3: Customer Information
+* **Sheet3**: Customer Information
 
-* Sheet4: Dashboard (summary)
+* **Sheet4**: Dashboard (summary)
 
 This keeps everything organized and makes it easy to find specific data.
 
