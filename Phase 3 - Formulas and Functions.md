@@ -81,7 +81,7 @@ Example: `=2+3*4` equals `14` (multiplication first). `=(2+3)*4` equals `20` (pa
 
 #### 3. Writing a Formula in the Formula Bar
 
-You can also click the **Formula Bar** at the top and type directly there. This is useful for long formulas.
+> You can also click the **Formula Bar** at the top and type directly there. This is useful for long formulas.
 
 ---
 
@@ -161,7 +161,7 @@ You can also click the **Formula Bar** at the top and type directly there. This 
 
 * **Behavior**: The reference stays exactly the same, no matter where you copy the formula.
 
-* **Use Case**: When you have a constant value (like a tax rate) stored in a single cell that all formulas should use.
+* *Use Case*: When you have a constant value (like a tax rate) stored in a single cell that all formulas should use.
 
 
 #### 3. Mixed Reference (Partially Locked)
@@ -170,7 +170,7 @@ You can also click the **Formula Bar** at the top and type directly there. This 
 
 * **Behavior**: Only the part with the $ stays fixed.
 
-* **Use Case**: Creating multiplication tables where you need to lock the row or the column.
+* *Use Case*: Creating multiplication tables where you need to lock the row or the column.
 
 ---
 
@@ -334,7 +334,7 @@ These are pre-built formulas that perform common calculations. Instead of typing
 
 ### Syntax or Rules
 
-* **Ranges**: Use a colon `:` between start and end (e.g., A1:A10).
+* **Ranges**: Use a colon `:` between start and end (e.g., `A1:A10`).
 
 * **Multiple Ranges**: Use commas `,` to add separate ranges (e.g., `=SUM(A1:A10, C1:C10)`).
 
@@ -372,15 +372,15 @@ These are pre-built formulas that perform common calculations. Instead of typing
 
 #### Exercise 1: Sales Summary
 
-Create this data in A1:B6:
+* Create this data in A1:B6:
 
-| Product | Sales |
-|---|---|
-| A    | 120   |
-| B    | 450   |
-| C    | 300   |
-| D    | 200   |
-| E    | 650   |
+    | Product | Sales |
+    |---|---|
+    | A    | 120   |
+    | B    | 450   |
+    | C    | 300   |
+    | D    | 200   |
+    | E    | 650   |
 
 1. Calculate Total Sales.
 
@@ -691,7 +691,7 @@ Excel stores dates as serial numbers (starting from 1 = Jan 1, 1900). This allow
 
 #### Core Time Functions:
 
-`HOUR(serial_number)`, `MINUTE()`, `SECOND()`.
+* `HOUR(serial_number)`, `MINUTE()`, `SECOND()`.
 
 ---
 
@@ -755,13 +755,13 @@ Excel stores dates as serial numbers (starting from 1 = Jan 1, 1900). This allow
 
 ### Syntax or Rules
 
-Dates must be valid. Excel may interpret `2/30/2024` as text (error).
+* Dates must be valid. Excel may interpret `2/30/2024` as text (error).
 
-`DATEDIF` is a hidden function (no auto-complete), but it works.
+* `DATEDIF` is a hidden function (no auto-complete), but it works.
 
-`TODAY()` updates every time the workbook is opened or calculated.
+* `TODAY()` updates every time the workbook is opened or calculated.
 
-`NOW()` returns a decimal; the integer part is the date, the fractional part is the time.
+* `NOW()` returns a decimal; the integer part is the date, the fractional part is the time.
 
 ---
 
@@ -1120,7 +1120,7 @@ Create a list of 20 product statuses: "Complete", "Pending", "In Progress".
 
 #### Exercise 2: SUMIF
 
-Sales data: Column A (Product), Column B (Sales).
+**Sales data**: Column A (Product), Column B (Sales).
 
 1. Calculate total sales for Product "X".
 
@@ -1128,7 +1128,7 @@ Sales data: Column A (Product), Column B (Sales).
 
 #### Exercise 3: SUMIFS
 
-Data: Region (A), Product (B), Sales (C).
+**Data**: Region (A), Product (B), Sales (C).
 
 1. Sum sales for "Product A" in "North" region.
 
@@ -1142,11 +1142,11 @@ Data: Region (A), Product (B), Sales (C).
 
 1. What character must every formula start with?
 
-2. What is the difference between =A1+B1 and =A1*B1?
+2. What is the difference between `=A1+B1` and `=A1*B1`?
 
 3. What does the F4 key do when editing a cell reference?
 
-4. If you copy =$A$1+B1 from row 1 to row 2, what does it become?
+4. If you copy `=$A$1+B1` from row 1 to row 2, what does it become?
 
 #### Section 2: Mathematical & Logical
 
@@ -1214,15 +1214,15 @@ Data: Region (A), Product (B), Sales (C).
 
 7. **SUMIF Criteria with Text:** 
 
-    **Mistake:** Writing =SUMIF(A:A, Apple, B:B) without quotes. 
+    **Mistake:** Writing `=SUMIF(A:A, Apple, B:B)` without quotes. 
     
-    **Solution:** =SUMIF(A:A, "Apple", B:B).
+    **Solution:** `=SUMIF(A:A, "Apple", B:B)`.
 
 8. **Division by Zero: 
 
-    **Mistake:** =A1/B1 where B1 is 0. 
+    **Mistake:** `=A1/B1` where B1 is 0. 
     
-    **Solution:** Use =IF(B1=0, 0, A1/B1).
+    **Solution:** Use `=IF(B1=0, 0, A1/B1)`.
 
 ---
 
@@ -1230,7 +1230,7 @@ Data: Region (A), Product (B), Sales (C).
  
 1. **Use Named Ranges**: 
 
-    Instead of =SUM(A1:A100), name the range "Sales" and use =SUM(Sales). It makes formulas readable.
+    Instead of `=SUM(A1:A100)`, name the range "Sales" and use `=SUM(Sales)`. It makes formulas readable.
 
 2. **Break Down Complex Formulas**: 
 
@@ -1238,7 +1238,7 @@ Data: Region (A), Product (B), Sales (C).
 
 3. **Document Your Logic**: 
 
-    Add comments to complex formulas using =N("This calculates commission") + A1*0.1.
+    Add comments to complex formulas using `=N("This calculates commission") + A1*0.1`.
 
 4. **Avoid Hardcoding**: 
 
@@ -1266,25 +1266,25 @@ Data: Region (A), Product (B), Sales (C).
 
     **Answer:** 
     
-    A formula is any expression starting with =, e.g., =A1+B1. A function is a pre-built formula, e.g., =SUM(A1:A10). All functions are formulas, but not all formulas are functions.
+    A formula is any expression starting with `=`, e.g., `=A1+B1`. A function is a pre-built formula, e.g., `=SUM(A1:A10)`. All functions are formulas, but not all formulas are functions.
 
 2. : Explain relative and absolute cell references.
 
     **Answer:** 
     
-    Relative (A1) changes when copied. Absolute ($A$1) stays fixed when copied. Use absolute for constants like tax rates.
+    Relative (`A1`) changes when copied. Absolute (`$A$1`) stays fixed when copied. Use absolute for constants like tax rates.
 
 3. : What does the IF function do?
 
     **Answer:** 
     
-    It checks a condition and returns one value if TRUE and another if FALSE. Example: =IF(A1>10, "Yes", "No").
+    It checks a condition and returns one value if TRUE and another if FALSE. Example: `=IF(A1>10, "Yes", "No")`.
 
 4. : How do you combine text from two cells?
 
     **Answer:** 
     
-    Use the ampersand &: =A1 & " " & B1. Or use =CONCATENATE(A1, " ", B1).
+    Use the ampersand `&`: `=A1 & " "` & B1. Or use `=CONCATENATE(A1, " ", B1)`.
 
 
 ### Intermediate Level
@@ -1299,7 +1299,7 @@ Data: Region (A), Product (B), Sales (C).
 
     **Answer:** 
 
-    Use =NETWORKDAYS(start_date, end_date). You can also add a holiday range.
+    Use `=NETWORKDAYS(start_date, end_date)`. You can also add a holiday range.
 
 7. : Why would you use SUMIFS instead of SUMIF?
 
@@ -1323,7 +1323,7 @@ Data: Region (A), Product (B), Sales (C).
 
     **Answer:** 
     
-    Wrap it in IFNA: =IFNA(VLOOKUP(...), "Not Found"). Or use XLOOKUP which has a built-in if_not_found parameter.
+    Wrap it in IFNA: `=IFNA(VLOOKUP(...)`, "Not Found"). Or use XLOOKUP which has a built-in `if_not_found` parameter.
 
 ---
 
@@ -1377,7 +1377,7 @@ You need to create a comprehensive analysis dashboard using all the functions yo
 
 #### 1. Employee Analysis (Sheet1)
 
-* **Tenure**: In a new column, calculate the number of years each employee has been with the company (using DATEDIF and TODAY()).
+* **Tenure**: In a new column, calculate the number of years each employee has been with the company (using `DATEDIF` and `TODAY()`).
 
 * **Salary Grade**: In a new column, use a nested IF (or IFS) to assign a grade:
 
@@ -1390,23 +1390,23 @@ You need to create a comprehensive analysis dashboard using all the functions yo
     * | < 55000: "D"
 
 
-* Department Summary: Use COUNTIF to count employees per department. Use AVERAGEIF to calculate the average salary per department.
+* Department Summary: Use `COUNTIF` to count employees per department. Use `AVERAGEIF` to calculate the average salary per department.
 
 #### 2. Sales Analysis (Sheet2)
 
-* **Employee Name**: In a new column, use XLOOKUP (or VLOOKUP) to pull the employee's full name from Sheet1 using the Emp ID.
+* **Employee Name**: In a new column, use `XLOOKUP` (or VLOOKUP) to pull the employee's full name from Sheet1 using the Emp ID.
 
-* **Total Sales**: Use SUMIF or SUMIFS on Sheet2 to calculate total sales for each employee (create a small summary table).
+* **Total Sales**: Use `SUMIF` or `SUMIFS` on Sheet2 to calculate total sales for each employee (create a small summary table).
 
-* **Sales Category**: Use IF to categorize sales per transaction: "High" if Sales > 15000, "Medium" if between 8000 and 15000, "Low" if < 8000.
+* **Sales Category**: Use `IF` to categorize sales per transaction: "High" if Sales > 15000, "Medium" if between 8000 and 15000, "Low" if < 8000.
 
 #### 3. Combined Dashboard (Sheet3)
 
 * Create a summary table with columns: Emp ID, Name, Department, Salary, Total Sales (from Sheet2), Tenure, Salary Grade.
 
-* Use VLOOKUP or XLOOKUP to pull the Total Sales from your summary on Sheet2 into this combined table.
+* Use `VLOOKUP` or `XLOOKUP` to pull the Total Sales from your summary on Sheet2 into this combined table.
 
-* Use COUNTIFS and SUMIFS to answer:
+* Use `COUNTIFS` and `SUMIFS` to answer:
 
     * How many "High" sales transactions are there?
 
@@ -1429,7 +1429,7 @@ You need to create a comprehensive analysis dashboard using all the functions yo
 
 ### 1. Formulas Basics
 
-* All formulas start with =.
+* All formulas start with `=`.
 
 * Order of operations: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.
 
